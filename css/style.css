@@ -8,6 +8,7 @@ body {
     margin: 0 auto;
     border: 24px solid #1a617f;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
 }
 
 header,
@@ -65,9 +66,12 @@ select {
 
 .submit {
     width: auto;
-    padding: 4px 8px;
+    padding: 8px 24px;
     background-color: #1c9c7c;
     color: #fff;
     border-radius: 5px;
     border: none;
+    position: absolute;
+    bottom: 8px;
+    right: 24px;
 }
