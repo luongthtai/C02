@@ -55,8 +55,7 @@ section {
 }
 
 textarea {
-    width: 100%;
-    max-width: 100%;
+    width: 100% !important;
     height: 100px;
     padding: 4px 12px;
     box-sizing: border-box;
